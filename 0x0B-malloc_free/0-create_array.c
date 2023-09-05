@@ -3,8 +3,8 @@
 #include "main.h"
 /**
 * create_array - create a array
-* @unsigned int size: variable
-* @char c: character
+* @size: variable
+* @c: character
 * Return: pointer
 */
 char *create_array(unsigned int size, char c)
