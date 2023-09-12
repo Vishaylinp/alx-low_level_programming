@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdio.h>
 /**
 * init_dog - information of dog
 * @d: dog
