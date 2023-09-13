@@ -9,7 +9,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int x;
 	
-	if (array == NULL || cmp == NULL)
+	if (array == NULL || cmp == NULL || size <= 0)
 	{
 		return (-1);
 	}
@@ -17,7 +17,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		if (cmp(array[x]) != 0)
 		{
-			return (1);
+			return (x);
 		}
 	}
 	return (-1);
