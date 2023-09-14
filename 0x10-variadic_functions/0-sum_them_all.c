@@ -21,7 +21,7 @@ int sum_them_all(const unsigned int n, ...)
 			return (0);
 		}
 		else
-		sum_them += va_arg(ar, const unsigned int);
+		sum_them += va_arg(ar,  unsigned int);
 	}
 	va_end(ar);
 	return (sum_them);
