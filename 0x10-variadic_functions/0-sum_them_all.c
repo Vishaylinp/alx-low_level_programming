@@ -17,15 +17,15 @@ int sum_them_all(const unsigned int n, ...)
 
 	for (x = 0; x < n; x++)
 	{
-		 y = va_arg(ar, unsigned int);
-
 		if (n == 0)
 		{
 			return (0);
 		}
 		else
-
-		sum_them += y;
+		{
+			y = va_arg(ar, int);
+			sum_them += y;
+		}
 	}
 	va_end(ar);
 	return (sum_them);
