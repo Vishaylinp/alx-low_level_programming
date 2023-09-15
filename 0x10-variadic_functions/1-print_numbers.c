@@ -2,6 +2,7 @@
 /**
 * print_numbers - print number set.
 * @separator: seperates text with comma
+* @n: number of int
 * Return: numbers
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
