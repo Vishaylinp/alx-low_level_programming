@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
 * print_numbers - print number set.
-* @seperator: seperates text with comma
+* @separator: seperates text with comma
 * Return: numbers
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -18,7 +18,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		print = va_arg(ag, const unsigned int);
 		printf("%d", print);
 
-		if (x != (n-1) && separator != NULL)
+		if (x != (n - 1) && separator != NULL)
 		{
 			printf("%s", separator);
 		}
