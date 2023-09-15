@@ -3,6 +3,7 @@
 * print_strings - combine strings together
 * @separator: comma
 * @n: number of string
+* Return : void
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
