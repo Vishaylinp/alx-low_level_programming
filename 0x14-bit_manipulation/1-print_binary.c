@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_binary - print binary.
  * @n: pointer
  */

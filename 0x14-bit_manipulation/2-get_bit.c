@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * get_bit - value of bits
 * @n: number
 * @index: index
