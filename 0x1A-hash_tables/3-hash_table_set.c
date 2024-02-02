@@ -42,8 +42,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 	}
 	new_n->value = dup;
-	new_n->next = ht->array[i];
-	ht->array[i] = new_n;
+	new_n->next = ht->array[index];
+	ht->array[index] = new_n;
 
 	return (1);
 
